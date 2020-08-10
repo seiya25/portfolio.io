@@ -1,0 +1,254 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration:none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  user-select: none;
+}
+
+.container{
+  padding:0 15px;
+  text-align:center;
+  margin:0 auto;
+}
+
+header{
+  width:100%;
+  height:60px;
+  line-height:60px;
+  background:rgba(44, 182, 187, 0.3);
+  position:fixed;
+  top: 0;
+  z-index: 10;
+}
+
+
+.header-left i{
+  float:left;
+  margin:0 35px;
+  padding:0 15px;
+  line-height:60px;
+}
+
+.fa-twitter{
+  cursor: pointer;
+  color:white;
+  font-size:30px;
+  border-radius:50%;
+}
+
+.fa-facebook-square{
+  cursor: pointer;
+  color:white;
+  font-size:30px;
+}
+
+.header-right{
+  float:right;
+}
+
+.header-right a{
+  text-decoration:none;
+  margin-right: 80px;
+  padding:21px 10px;
+  color: #fff;
+  
+}
+
+.header-right a:hover{
+  opacity:0.6;
+  transition:1s;
+}
+
+.top-wrapper{
+  background:rgba(0,0,0,0.8);
+  color:#fff;
+  font-size:40px;
+  letter-spacing:5px;
+  width:100%;
+  height:700px;
+  padding-top:350px;
+  text-align:center;
+}
+
+/* コンテンツ */
+
+.contents-wrapper{
+  background:#fff;
+
+  margin-bottom:300px;
+}
+
+.top-content{
+  font-size:30px;
+  margin:180px 0;
+}
+  
+.introduce {
+  display:flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+  padding-top: 200px;
+}
+
+.introduce h1{
+  width: 30%;
+  font-size:50px;
+  letter-spacing:4px;
+  font-weight:bold;
+
+}
+
+.introduce span{
+  color:red;
+  letter-spacing:0;
+  padding-right:30px;
+}
+
+.introduce-content {
+  text-align:left;
+  width:60%;
+  padding:30px 180px;
+  letter-spacing:2px;
+
+}
+
+
+.introduce-content h2{
+  font-size:35px;
+  padding-bottom:2px;
+  color:rgba(50,0,40,1);
+}
+
+
+
+ .introduce-content h3{
+  padding-bottom:20px;
+  color:rgba(40,0,40,0.9);
+}
+
+.introduce-content>p{
+  color:rgba(40,0,50,0.6);
+  font-weight:bold;
+  padding-bottom:50px;
+}
+
+.introduce-content img{
+  border-radius: 5%;
+}
+
+.skill{
+  margin-top:250px;
+  margin-bottom:700px;
+}
+
+.skill span{
+  color:red;
+  letter-spacing:0;
+  padding-right:30px;
+}
+
+.skill h1{
+  width: 30%;
+  font-size:50px;
+  letter-spacing:4px;
+  font-weight:bold;
+}
+
+.skill-logo{
+  width:100%;
+  padding:0 100px;
+  margin-left: 150px;
+  font-size:250px;
+  
+}
+
+.skill-icon{
+  margin-top:100px;
+  width:33%;
+  float:left;
+}
+
+.skill-icon i{
+  font-size:250px;
+  cursor:pointer;
+}
+
+.skill-icon p{
+  color:#5f5d60;
+  font-weight:normal;
+  margin-top:40px;
+  font-size:40px;
+
+}
+
+.fa-html5{
+  color:red;
+}
+
+.fa-css3-alt{
+  color:rgb(69, 174, 216);
+}
+
+.fa-js-square{
+  color:yellowgreen;
+}
+
+.contact{
+  padding:350px;
+  background: #f1eeee;
+  border-radius: 10px;
+}
+
+.contact-front{
+  padding-right:5px;
+  font-size:40px;
+  color:#39393a;
+}
+
+.contact-front span{
+  color:rgb(95, 0, 0);
+}
+.text-name{
+  margin-top:100px;
+}
+.text{
+  width: 100%; /*親要素いっぱい広げる*/
+  padding: 10px 15px; /*ボックスを大きくする*/
+  font-size: 16px;
+  border-radius: 3px; /*ボックス角の丸み*/
+  border: 2px solid #ddd; /*枠線*/
+  box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+}
+
+.text:focus{
+  box-shadow: 0 0 5px 0 rgba(255,153,0,1);
+  border: 2px solid #FFF !important;
+  outline: 0;
+}
+
+textarea{
+  height:150px;
+}
+
+.decorated-btn {
+  margin-top:30px;
+  background-color: gold;
+  width:170px;
+  font-size: 25px;
+  border-radius: 5px;
+  border-bottom: solid 3px goldenrod;
+  box-shadow: 3px 3px 3px gray;
+  transition: 0.3s;
+}
+
+.click-down:active {
+  transform: translateY(2px);
+  border-bottom: none;
+}
+
+.decorated-btn:hover {
+  background-color: orange;
+}
